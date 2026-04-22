@@ -22,7 +22,7 @@
 ### Custom Files
 `nice_view-corne_choc_pro_left-zmk.uf2`
 `nice_view-corne_choc_pro_right-zmk.uf2`
-https://v0-3-branch.zmk.dev/docs/user-setup#installing-the-firmware
+
 ### Reset File
 `settings_reset-corne_choc_pro_left-zmk.uf2`
 `settings_reset-corne_choc_pro_right-zmk.uf2`
