@@ -40,7 +40,7 @@
             display-name = "EXTRA 1";
             bindings = <
 &kp BSPC  &kp P          &kp O    &kp I                  &kp U   &kp Y      &trans      &kp UP    &kp N7  &kp N8  &kp N9   &kp MINUS     &kp LS(STAR)  &kp FSLH
-&kp RET   &kp SEMI       &kp L    &kp K                  &kp J   &kp H      &kp LS(AT)  &kp DOWN  &kp N4  &kp N5  &kp N6   &kp LS(PLUS)  &trans        &trans
+&kp RET   &kp SEMI       &kp L    &kp K                  &kp J   &kp H      &kp LS(AT)  &kp DOWN  &kp N4  &kp N5  &kp N6   &kp LS(PLUS)  &kp LBKT      &kp RBKT
 &mo 0     &kp LS(QMARK)  &kp DOT  &kp COMMA              &kp M   &kp N                            &kp N1  &kp N2  &kp N3   &kp RET       &trans        &trans
                                   &kp RIGHT_PARENTHESIS  &trans  &kp SPACE                        &tog 3  &kp N0  &kp DOT
             >;
@@ -66,7 +66,7 @@
 &trans  &trans  &kp ESCAPE  &kp ENTER  &kp BACKSPACE  &trans     &tog 0     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp HOME    &kp UP     &kp END        &kp LC(V)  &kp LC(A)  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT    &kp DOWN   &kp RIGHT      &kp LC(C)                     &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans     &trans         &trans                        &trans  &trans  &trans
+                            &trans     &trans         &to 0                         &trans  &trans  &trans
             >;
         };
 
